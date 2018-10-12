@@ -16,11 +16,23 @@
   {% else %}
   <div class="jumbotron">
   	<div class="container">
-  		<h1>{% trans "Welcome" %}</h1>
-  		<p></p>
-  		<p>{% blocktrans %}GeoNode is an open source platform for sharing geospatial data and maps.{% endblocktrans %}</p>
-		<p>{% blocktrans %}If you have any questions about the software or service, join our <a href="http://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-users">mailing list</a>.{% endblocktrans %}</p>
-  		<a class="btn btn-default btn-lg" target="_blank" href="http://docs.geonode.org/en/master/tutorials/users/index.html" role="button">{% blocktrans %}Get Started &raquo;{% endblocktrans %}</a>
+  		<table>
+    <tr>
+    <td>
+      <h1>{% trans "GeoVisor  DGBAP" %}</h1>
+      <p></p>
+      <p>{% blocktrans %}GeoVisor DGBAP podra visualizar y descargar los distintos datos de capas y mapas que se manejan en la Direccion General de Biodiversidad y Areas Protegidas.{% endblocktrans %}</p>
+    <p>{% blocktrans %}Si tienen alguna pregunta contactese con nosotros. <a href="http://mmaya.gob.bo">MMAYA </a>.{% endblocktrans %}</p>
+    <p>{% blocktrans %}O ingrese a la pagina de la Dirección General de Biodiversidad y Áreas Protegidas. <a href="http://dgbap.mmaya.gob.bo">DGBAP </a>.{% endblocktrans %}</p>
+      <a class="btn btn-default btn-lg" target="_blank" href="https://drive.google.com/file/d/1xkUHrm00j1jgEDKSQwRCI6y5NReXjVfc/view?usp=sharing" role="button">{% blocktrans %}Como usar el Geovisor DGBAP &raquo;{% endblocktrans %}</a>
+
+    </td>
+    <td>
+      <img src="/static/geonode/img/logo-bg.png" class="fright geonodelogo" width="550" height="200" />
+    </td>
+    </tr>
+    </table>
+
   	</div>
   </div>
   {% endif %}
