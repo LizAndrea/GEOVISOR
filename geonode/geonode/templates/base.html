@@ -174,7 +174,7 @@
 
     <div class="alert alert-danger alert-dismissible" role="alert" id="ieflag" style="display:none">
       <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-      <h1>You are using an outdated browser that is not supported by GeoNode.</h1>
+      <h1>You are using an outdated browser that is not supported by GeoVisor.</h1>
       <p>Please use a <strong>modern browser</strong> like Mozilla Firefox, Google Chrome or Safari.</p>
     </div>
 
@@ -257,8 +257,8 @@
           {% block contactus %}
           {% endblock contactus %}
           <ul class="list-unstyled">
-            <li>{% trans "Powered by" %} <a href="http://geonode.org">{% trans "GeoNode" %}</a> <em>{% trans "version" %} {{ VERSION }}</em></li>
-            <li><a href="{% url "developer" %}">{% trans "Developers" %}</a> | <a href="{% url "about" %}">{% trans "About" %}</a><li>
+            <li>{% trans "Powered by" %} <a href="http://dgbap.mmaya.gob.bo">{% trans "DGBAP" %}</a> <em>{% trans "version" %} {{ VERSION }}</em></li>
+            <!--<li><a href="{% url "developer" %}">{% trans "Developers" %}</a> | <a href="{% url "about" %}">{% trans "About" %}</a><li>-->
           </ul>
           <label class="hidden">{% trans "Language" %}</label>
           {% if csrf_token != "NOTPROVIDED" %}
