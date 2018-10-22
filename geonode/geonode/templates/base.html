@@ -260,6 +260,7 @@
             <li>{% trans "Powered by" %} <a href="http://dgbap.mmaya.gob.bo">{% trans "DGBAP" %}</a> <em>{% trans "version" %} {{ VERSION }}</em></li>
             <!--<li><a href="{% url "developer" %}">{% trans "Developers" %}</a> | <a href="{% url "about" %}">{% trans "About" %}</a><li>-->
           </ul>
+
           <label class="hidden">{% trans "Language" %}</label>
           {% if csrf_token != "NOTPROVIDED" %}
           {% get_current_language as LANGUAGE %}
